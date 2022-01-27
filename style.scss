@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.wrapper {
+    font-family: Roboto;
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 10px;
+}
+main {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 57px;
+}
+.info p {
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 150%;
+}
+h1 {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.producer {
+    max-width: 366px;
+    margin-left: 164px;
+}
+.producer_img {
+    width: 100%;
+}
+footer {
+    display: flex;
+}
+.director {
+    width: 100%;
+}
+.block_director {
+    max-width: 232px;
+}
+.block_footer p {
+    font-size: 18px;
+    line-height: 130%;
+    width: 150px;
+}
+.block_footer h2 {
+    font-size: 25px;
+    line-height: 130%;
+}
+.duration {
+    max-width: 638px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: auto;
+}
+/* ====================Tablet======================= */
+@media (max-width:1400px) {
+    .wrapper {
+        max-width: calc(834px - 144px);
+        margin: 0 auto;
+    }
+    .block_director {
+        display: none;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    .info p {
+        font-size: 14px;
+        line-height: 150%;
+        max-width: 383px;
+    }
+    .producer {
+        max-width: 181.86px;
+        margin-left: 110px;
+    }
+     .block_footer h2 {
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .block_footer p {
+        font-size: 11px;
+        line-height: 130%;
+        max-width: 87px;
+    }
+    .duration {
+        margin-left: 0;
+        width: 383px;
+    }
+}
+/* =====================Mobile======================= */
+@media (max-width: 800px) {
+    .wrapper {
+        max-width: 308.47px;
+        margin: 0 auto;
+        
+    }
+    main {
+        flex-wrap: wrap;
+        margin-bottom: 45.71px;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+    .info p {
+        font-size: 12px;
+        line-height: 150%;        
+    }
+    .producer {
+        max-width: 170.55px;
+        margin: 0 auto;
+    }
+    .duration {
+        flex-wrap: wrap;
+    }
+    .block_footer h2 {
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .block_footer p {
+        font-size: 10px;
+        line-height: 130%;
+        width: 86px;        
+    }
+    .block_footer {
+        margin-right: 33.33px;
+    }
+}
